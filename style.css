@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364)
+}
+
+.mainDiv{
+    width: 1000px;
+    border: 1px solid red;
+    display: block;
+    text-align: center;
+    margin: 300px auto;
+    padding: 20px;
+}
+
+.commonStyle{
+    height: 200px;
+    width: 200px;
+    background-color: #E91E63;
+    display: inline-block;
+    margin: 10px;
+}
+
+.transition{
+    transition: .5s;
+    
+}
+.div1:hover{
+    background: #9C27B0;
+    transform: translate(-100px, 70px);
+}
+.div2:hover{
+    background: #9C27B0;
+    transform: rotate(70deg);
+}
+.div3:hover{
+    background: #9C27B0;
+    transform: skew(20deg, 30deg);
+}
+.div4:hover{
+    background: #9C27B0;
+    transform: scale(0.5);
+}
+
+
+
+
+
+
